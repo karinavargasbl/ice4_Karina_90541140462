@@ -1,0 +1,134 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+/* Header Styling */
+header {
+    background-color: #ea91d5; /* Dark Green */
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+/* Logo Styling */
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio */
+    margin-left: 20px;
+}
+ 
+.logo img {
+    height: 20px; /* Adjust logo size */
+    width: 10px;
+}
+ 
+/* Navigation Styling */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ 
+nav ul li {
+    display: inline;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+ul{
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0;
+}
+ 
+/* Active Page Highlight */
+nav ul li.active a {
+    background-color: #b809d3; /* Slightly lighter green */
+}
+ 
+/* Main Content */
+main {
+    flex: 1;
+    width: 80%;
+    background: rgb(251, 251, 214);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.profile-photo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.team-photo {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Make height equal to width */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border-radius: 50%; /* Makes the image circular */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Centers the image */
+}
+
+.team-section {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the section */
+    padding: 20px; /* Adds some spacing */
+    text-align: center; /* Centers the content */
+}
+
+.team-section ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.team-section li {
+    margin-bottom: 30px; /* Adds space between each team member */
+}
+
+
+
+ 
+/* Footer Styling */
+footer {
+    background-color: #750886;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+ 
